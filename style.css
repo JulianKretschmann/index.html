@@ -211,6 +211,15 @@ iframe{
   font-size: 30px;
 }
 
+#janurar{
+  float: left;
+}
+
+#februar{
+  float: left;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 1000px){
   #beispiel {
     display: none;
