@@ -6,7 +6,27 @@
 
     <link rel="stylesheet" type="text/css" href="style.css" />
 
-    
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("top");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
    
   
 
@@ -19,8 +39,8 @@
         <div id="dropdown" class="dropdown">
           <button class="dropbtn">Dropdown</button>
           <div class="dropdown-content">
-          <a href="#">Januar</a>
-          <a href="#">Februar</a>
+          <a href="#januar">Januar</a>
+          <a href="#februar">Februar</a>
           <a href="#">März</a>
           <a href="#">April</a>
           <a href="#">Mai</a>
@@ -82,14 +102,177 @@
                   <div id="spiel">
                     <h3>Elden Ring</h3>
                     <p>
-
+                      DAS NEUE FANTASY-ACTION-RPG. Erhebt Euch, Befleckter, und lasst Euch von der Gnade leiten, um die Macht des Eldenrings zu befehligen und zum 
+                      Eldenfürsten im Zwischenland zu werden.<br>
+                      In der weiten, vielseitigen Spielwelt gilt es düstere Dungeons zu erkunden und gigantisch-groteske Gegner mit einer Vielzahl an Waffen, magischen 
+                      Fähigkeiten und Fertigkeiten zu besiegen. Der Titel kann entweder alleine oder mit anderen Spielenden erlebt werden.<br><br>
+                      Der Release ist für den 25. Februar 2022 für PS4, PS5, Xbox One, Xbox Series X/S & PC geplant.
                     </p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/jJdzHtYTpu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
 
-            </div>
+                <div id="marz">
+                  <h2>März</h2>
+                  <div>
+                    <h3>Elex 2</h3>
+                    <p>Elex 2 ist ein Rollenspiel aus dem Hause Piranha Bytes. Die Gothic-Veteranen spendieren Elex ein offizielles Sequel, das für die PS5, Xbox Series 
+                      X/S und den PC erscheint..<br><br>
+                      Inhaltlich geht es zurück zum Planeten Magalan. Nachdem Jax im ersten Teil die Hybriden besiegt hat, wird der Held mit einer neuen Bedrohung konfrontiert, 
+                      die die Macht von Dark Elex entfesseln konnte. Um seine Familie zu schützen, muss er ein brüchiges Bündnis mit den einzelnen Fraktionen eingehen, dich sich 
+                      gemeinsam der feindlichen Invasion stellen sollen. Aber wird ihm das gelingen?
+                      <br><br>Der Release ist für den 1. März 2022 für PS4, PS5, Xbox One, Xbox Series X/S & PC geplant.
+                      </p>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/soTaWgVEbEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div id="spiel">
+                    <h3>Tiny Tina’s Wonderlands</h3>
+                    <p>In der Welt eines mehr oder weniger klassischen Fantasy-Tabletop-Games, das dem Verstand von Tiny Tina entspringt, müssen Spieler*innen eine Möglichkeit 
+                      finden, den bösen Dragon Lord zu besiegen, indem sie unter Zuhilfenahme der typischen Loot-Shooter-Elemente schießen, bomben und neuerdings auch zaubern.<br><br> 
+                      Neben den klassischen „Bordlands“-Waffen gibt es also Magie, Schwerter, Einhörner und Ritter, mit denen die Story wie in einem typischen Pen-and-Paper-Rollenspiel 
+                      erzählt wird. Bei den Spielmodi kann zwischen einer Story-basierten Koop-Kampagne für bis zu vier Spielende oder einem Soloabenteuer gewählt werden.
+                      <br><br>Der Release von „Tiny Tina’s Wonderlands“ für PC, PS4, PS5, Xbox Series X/S und Xbox One ist für 25. März 2022 geplant.
+                      </p>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/-L_vO8DDMsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                    </div>
+                    <div id="spiel">
+                      <h3>Ghostwire: Tokyo</h3>
+                      <p>Das Game spielt in der japanischen Hauptstadt Tokio. Die Bevölkerung verschwindet auf mysteriöse Weise. 99 Prozent der dort lebenden Menschen sind 
+                        verschwunden, der Grund dafür ist unbekannt. Die Spieler durchlaufen eine geheimnisvolle Horrorreise, in der der Hauptcharakter über besondere Kräfte 
+                        verfügt. Die dunkle Geschichte trumpft mit paranormalen Elementen auf, denen sich die Spielende als Medium stellen müssen. Mikami erklärt, dass es solch 
+                        einen Mix aus Horror und Action noch nie gegeben haben soll.
+                        <br><br>Der Release ist für den 22. März 2022 auf PS5 & PC geplant.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XWpsAKYa7NQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  </div>
+
+                </div>
+
+                <div id="april"> 
+                  <h2>April</h2>
+                  <div>
+                    <h3>LEGO Star Wars: Die Skywalker Saga</h3> 
+                    <p>Mit dem neuen Game in der gewohnten Baukasten-Optik kann der Spieler alle neun Filme der Star Wars-Saga erleben. Die Abenteuer werden dabei in einer 
+                      recht offenen Spielwelt mit den allseits bekannten Schauplätzen erlebt, stets begleitet von dem skurrilen Humor der Reihe. In jeder einzelnen Episode 
+                      können die jeweiligen Planeten besucht und entdeckt sowie zahlreiche Missionen und Kämpfe bestritten werden. 
+                      <br><br><br>
+                      Der Release ist für den 5. April 2022 geplant. Es erscheint für PS4, PS5, Xbox One, Xbox Series X/S, Switch & PC.
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eWGqmHgI8Lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  </div>
+                   
+                  </div>
+
+                  <div id="mai"> 
+                    <h2>Mai</h2>
+                    <div>
+                      <h3>Evil Dead: The Game</h3> 
+                      <p> Es handelt sich hierbei um einen „übertriebenen Koop- und PvP-Multiplayer-Action-Titel“, der euch mit insgesamt vier Personen gegen Blutrünstiges 
+                        und Dämonenartiges antreten lässt. Ähnlich wie in Left 4 Dead müsst ihr hier überleben, erkunden, looten und eure „Angst in den Griff bekommen“.  
+                        <br><br><br>
+                        Der Release ist für den 13. Mai 2022 geplant. Es erscheint für PS4, PS5, Xbox One, Xbox Series X/S & PC.
+                      </p>
+                      <iframe width="652" height="367" src="https://www.youtube.com/embed/ibyuGSKep10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                     
+                    </div>
+                 </div> 
+
+                 <div id="juni"> 
+                  <h2>Juni</h2>
+                  <div>
+                    <h3> Fire Emblem Warriors: Three Hopes</h3> 
+                    <p> Enthülle das Schicksal dreier Länder – in Fire Emblem Warriors: Three Hopes für Nintendo Switch, einer anderen Geschichte, die in der gleichen Welt 
+                      spielt wie Fire Emblem: Three Houses. Fire Emblem Warriors: Three Hopes spielt in Fódlan, einem Land, das von drei Mächten regiert wird. Mit der Welt 
+                      und den Figuren aus Fire Emblem: Three Houses wird eine neue Geschichte erzählt. Freu dich auf Kämpfe, in denen Action und Strategie vereint sind. 
+                      <br><br><br>
+                      Der Release ist für den 24. Juni 2022 für die nintendo switch geplant.
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cZyZB-Zjxxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                  </div>
+               </div> 
+
+               <div id="juli"> 
+                <h2>Juli</h2>
+                
+                  <h3> Für Juli 2022 sind keine Konkreten Veröffentlichungen bekannt. </h3> 
+                  
+             </div> 
+
+             <div id="august"> 
+              <h2>August</h2>
+              <div>
+                <h3>  Saints Row  </h3> 
+                <p> Erlebe den größten und besten Saints-Row-Spielplatz aller Zeiten; die einzigartige, ausufernde Welt von Santo Ileso bietet den Hintergrund für eine wilde, 
+                  überlebensgroße Sandbox voller atemberaubender Nebenquests, krimineller Unternehmungen und Blockbuster-Missionen, in denen du dich bis ganz nach oben schießt, 
+                  fährst und fliegst, wenn es sein muss im Wingsuit.
+                  <br><br><br>
+                  Der Release ist für den 23. Augus 2022 für PS4, PS4, Xbox One, Xbox Series X/S & PC geplant.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JR1w18sv4Rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
+              </div>
+              </div> 
+            
+              <div id="september"> 
+                <h2>september</h2>
+                <div>
+                  <h3>  Xenoblade Chronicles 3  </h3> 
+                  <p> Noch gibt es allerdings nicht allzu viele Details zum Spiel. Dennoch vermittelt euch der erste Trailer einen guten Eindruck vom Spiel. Grundsätzlich 
+                    stehen sich in Xenoblade Chronicles 3 zwei Nationen feindlich gegenüber: die Keves und die Agnus.
+
+                    Während sich die Keves auf Maschinentechnologie konzentrieren, legen die Agnus ihren Fokus auf magische Technologie. Als Spieler erleben wir in diesem 
+                    Kampf die Geschichte von sechs Soldaten: Noah, Lanz, Eunie, Mio, Taion und Sena.
+                    <br><br><br>
+                    Der Release ist für den september 2022 für Nintendo switch geplant.
+                  </p>
+                  <iframe width="652" height="367" src="https://www.youtube.com/embed/t-iNpDKuYb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                </div> 
+               </div>
+
+               <div id="oktober"> 
+                <h2>Oktober</h2>
+                <div>
+                  <h3>  Forspoken  </h3> 
+                  <p> Forspoken, ehemals Projekt Athia (Arbeitstitel), ist das erste PS5-Spiel des neu gegründeten Studios Luminous Productions. Der Titel wird für 
+                    PlayStation 5 und PC entwickelt und von Square Enix vermarktet.<br><br>
+                    „Forspoken“ entführt uns in eine Welt voller Schönheit und Schrecken. Im Mittelpunkt des actionreichen Abenteuers steht eine packende Geschichte 
+                    voller Wendungen, Leidenschaft und Furcht. Die Hauptfigur Frey Holland wird von der britischen Schauspielerin Ella Balinska gespielt. 
+                    <br><br><br>
+                    Der Release ist für den 11. Oktober 2022 für PC & PS5 geplant.
+                  </p>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/LUSCZ8wCMCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                </div> 
+               </div>
+
+               <div id="november"> 
+                <h2>November</h2>
+                <div>
+                  <h3>  Starfield  </h3> 
+                  <p> Starfield ist das neue Space-Abenteuer von Bethesda. Es ist die erste neue IP nach über 25 Jahren Unternehmensgeschichte. Bei dem Spiel soll es 
+                    sich um ein reines Singleplayer-Rollenspiel handeln, das auf ein prozedural generiertes Level-Design und vielschichtige Charaktere setzt.<br><br>
+                    Todd Howard bestätigt ein „Skyrim im Weltraum“. Es geht um die letzte Mission der Menschheit, die galaktische Ausmaße annimmt. Die Entwicklungsarbeiten 
+                    sollen dabei vier- bis fünfmal so umfangreich ausfallen wie bei vergleichbaren Titeln (Skyrim oder Fallout 4). Hierfür kommt die neue Creation Engine 2 
+                    von Bethesda erstmals zum Einsatz. 
+                    <br><br><br>
+                    Der Release ist für den 11. November 2022 für PC & Xbox Series X/S geplant.
+                  </p>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/pYqyVpCV-3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                </div> 
+               </div>
+
+               <div id="dezember"> 
+                <h2>Dezember</h2>
+                <div>
+                  <h3>  Stalker 2: Heart of Chernobyl  </h3> 
+                  <p> In einer gigantischen offenen Spielwelt, die ein weiteres Mal in der Sperrzone von Tschernobyl angesiedelt ist, soll der Protagonist weiteren Kreaturen, 
+                    Anomalien und Gefahren der postapokalyptischen Welt ausgesetzt sein. Die Story wird mehrere Enden bieten, da getroffene Entscheidungen Konsequenzen für den 
+                    Stalker und die gesamte Welt haben. Unter Einsatz der Unreal Engine und Motion-Capture-Aufnahmen strebt das Entwicklerstudio ein hohes Maß an Realismus an. 
+                    <br><br><br>
+                    „Stalker 2“ erscheint am 28. April 2022 für Xbox Series X/S und PC.
+                  </p>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/SjDMwsbaSd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                </div> 
+               </div>
+
+            </div>  
             <div id="link"><a href="index.html">Seite 1</a></div>
+            <button onclick="topFunction()" id="top" title="Go to top">Top</button>
           </div>
         
         
