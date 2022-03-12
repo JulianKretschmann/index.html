@@ -1,234 +1,303 @@
 body { 
-    margin: 0px;
-    padding: 10px;
-    background-image: url(Bilder/hg3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  margin: 0px;
+  padding: 10px;
+  background-image: url(Bilder/hg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 html{
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 #gesamt {
-    margin: auto;
-    padding: auto;
-    width: 80%;
-    overflow: hidden;
-    margin-top: 50px;
+  margin: auto;
+  padding: auto;
+  width: 80%;
+  overflow: hidden;
+  margin-top: 50px;
 }
 
 #head {
-  margin: 10px;
-  padding: 5px;
-  text-align: center;
-  color: mediumvioletred;
-  font-size: 80px;
+margin: 10px;
+padding: 5px;
+text-align: center;
+color: mediumvioletred;
+font-size: 80px;
 }
 
 #navi{
-  border: 3px solid mediumvioletred;
-  margin: auto;
-  width: 80%;
-  text-align: center;
-  font-size: 35px;
-  font-weight:bold;
+border: 3px solid mediumvioletred;
+margin: auto;
+width: 80%;
+text-align: center;
+font-size: 35px;
+font-weight:bold;
 }
 
 #navi li{
-  display: inline;
-  font-size: 25px;
+display: inline;
+font-size: 25px;
 }
 
 #navi a {
-  background-color: transparent;
-  text-decoration: none;
-  border: none;
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
+background-color: transparent;
+text-decoration: none;
+border: none;
+color: white;
+font-size: 25px;
+font-weight: bold;
 }
 
 .text {
-  margin-left: 50px;
+margin-left: 50px;
 }
 
 #navi a:hover{
-    background-color: red;
-    color: black;
+  background-color: red;
+  color: black;
 }
 
 #beispiel{
-  float: left;
-  border: 3px solid mediumvioletred;
-  margin-left: 2.5%;
-  text-align: center;
-  padding-right: 1%;
-  width: 10%;
+float: left;
+border: 3px solid mediumvioletred;
+margin-left: 2.5%;
+text-align: center;
+padding-right: 1%;
+width: 10%;
 }
 
 #beispiel ul{
-  list-style: none;
+list-style: none;
 }
 
 #beispiel li:hover{
-    background-color: red;
-    color: black;
+  background-color: red;
+  color: black;
 }
 
 #beispiel a{
-  text-decoration: none;
-  color: white;
+text-decoration: none;
+color: white;
 }
 
 #genre{
-  border: 3px solid mediumvioletred;
-  float: right;
-  margin-right: 2.5%;
-  margin-left: 1%;
-  padding: 40px;
-  width: 70%;
+border: 3px solid mediumvioletred;
+float: right;
+margin-right: 2.5%;
+margin-left: 1%;
+padding: 40px;
+width: 70%;
 }
 
 #genre img{
-  float: right;
-  width: 40%;
-  margin-top: 15px;
-  
+float: right;
+width: 40%;
+margin-top: 15px;
+
 }
 
 #genre p{
-  width: 55%;
-  float: left;
+width: 55%;
+float: left;
 }
 
 #genre h2{
-  margin: 10px;
-  padding: 10px;
-  color: #ff1493;
+margin: 10px;
+padding: 10px;
+color: #ff1493;
 }
 
 #genre iframe{
-  float: right;
-  width: 40%;
-  height: 240px;
-  margin-top: 15px;
+float: right;
+width: 40%;
+height: 240px;
+margin-top: 15px;
 }
 
 #shooter{
-  float: left;
+float: left;
 }
 
 #Action{
-  float: left;
+float: left;
 }
 
 #Adventure{
-  float: left;
+float: left;
 }
 
 #RPG{
-  float: left;
+float: left;
 }
 
 #MMO{
-  float: left;
+float: left;
 }
 
 #Sim{
-  float: left;
+float: left;
 }
 
 #Strategie{
-    float: left;
+  float: left;
 }
 
 #dropdown{
-  float: left;
-  margin-left: 5%;
+float: left;
+margin-left: 5%;
 }
 
 .dropbtn {
-  background-color: #5c5c5c;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+background-color: #5c5c5c;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
-  
+position: relative;
+display: inline-block;
+
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #5c5c5c;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: #5c5c5c;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
 }
 
 .dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
 }
 
 .dropdown-content a:hover {background-color: #4f4f4f}
 
 .dropdown:hover .dropdown-content {
-  display: block;
+display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #4f4f4f;
+background-color: #4f4f4f;
 }
 
 iframe{
-  width: 40%;
+width: 40%;
 }
 
 #spiel{
-  margin-top: 300px;
+margin-top: 350px;
 }
 
 #link{
-  padding: 100px;
-  float: right;
+padding: 100px;
+float: right;
+right: 100px;
+width: 1000px;
+text-align: right;
 }
 
 #link a{
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
+text-decoration: none;
+color: white;
+font-size: 30px;
+
 }
 
 #janurar{
-  float: left;
+float: left;
 }
 
 #februar{
+float: left;
+margin-top: 20px;
+}
+
+#marz{
+float: left;
+margin-top: 20px;
+}
+
+#april{
   float: left;
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+#mai{
+  float: left;
+  margin-top: 20px;
+}
+
+#juni{
+  float: left;
+  margin-top: 20px;
+}
+
+#juli{
+  float: left;
+  margin-top: 20px;
+}
+
+#august{
+  float: left;
+  margin-top: 20px;
+}
+
+#september{
+  float: left;
+  margin-top: 20px;
+}
+
+#oktober{
+  float: left;
+  margin-top: 20px;
+}
+
+#november{
+  float: left;
+  margin-top: 20px;
+}
+
+#dezember{
+  float: left;
+  margin-top: 20px;
+}
+
+#top{
+  padding: 10px 24px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555
+}
+
+#top:hover {
+  background-color: #555555;
+  color: white;
 }
 
 @media screen and (max-width: 1000px){
-  #beispiel {
-    display: none;
-  }
+#beispiel {
+  display: none;
+}
 
-  #genre{
-    margin-right: 10%;
-    margin-left: 10%;
-  }
+#genre{
+  margin-right: 10%;
+  margin-left: 10%;
+}
 }
 
 
