@@ -8,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   
 }
-
+/* dammit beim druck auf die buttons auf der seite gescrollt wird */
 html{
 scroll-behavior: smooth;
 }
@@ -27,6 +27,10 @@ padding: 5px;
 text-align: center;
 color: mediumvioletred;
 font-size: 80px;
+}
+
+#head img{
+  height: 400px;
 }
 
 #navi{
@@ -73,7 +77,7 @@ width: 10%;
 #beispiel ul{
 list-style: none;
 }
-
+/*beim darüber hovern mit der Maus werden Schrift- sowie Hintergrundfarbe geändert*/
 #beispiel li:hover{
   background-color: red;
   color: black;
@@ -146,6 +150,7 @@ float: left;
   float: left;
 }
 
+/*erstellung eines Dropdown menüs*/
 #dropdown{
 float: left;
 margin-left: 5%;
@@ -212,7 +217,11 @@ text-align: right;
 text-decoration: none;
 color: white;
 font-size: 30px;
+background-color: mediumvioletred;
+}
 
+#link a:hover{
+  background-color: mediumvioletred; 
 }
 
 #janurar{
@@ -276,7 +285,7 @@ margin-top: 20px;
 
 #top{
   padding: 10px 24px;
-  position: fixed;
+  position: fixed;/*sorg dafür, dass der button immer an der Position des Bildschirms positioniert ist*/
   bottom: 30px;
   left: 30px;
   background-color: white;
@@ -289,15 +298,28 @@ margin-top: 20px;
   color: white;
 }
 
+/*bei einer screengröße bis zu 1000px*/
 @media screen and (max-width: 1000px){
 #beispiel {
   display: none;
 }
 
-#genre{
+body{
   margin-right: 10%;
   margin-left: 10%;
 }
+}
+/*layout beim */
+@media print {
+  #beispiel, #navi, button, #link {
+    display: none;
+  }
+  #genre iframe{
+    display: none;
+  }
+  #genre img{
+    display: none;
+  }
 }
 
 
