@@ -6,6 +6,16 @@
 
     <link rel="stylesheet" type="text/css" href="style.css" />
 
+    <script>
+      //funktion für den button
+      var mybutton = document.getElementById("top");
+      
+      // beim ausführen der funktion wird zum anfang der seite 
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
    
   
 
@@ -13,7 +23,7 @@
   </head>
   <body>
       <div id="gesamt">
-        <div id="head">Project Games</div>
+        <div id="head"><img src="Bilder/logo.jpg"></div>
         <div id="navi">
           Genre
           <ul>
@@ -49,6 +59,7 @@
           Berechnung der Anzahl und Art der getroffenen Objekte im Abhängigkeit des Schadens der genutzten Waffe berechnet. Aufgrund des in den meisten Shootern geforderten 
           Reaktionsvermögen gehören die meisten Shooter auch zum Geschicklichkeitsspiel, wobei andere Shooter auch mehr Wert auf taktische und strategische Elemente legen.
           </p>
+          <!--ein Bild, das zu einem anderen wird, wenn man mit der maus darüber hovert-->
           <img src="Bilder/codcover.jpg" onmouseover="this.src='Bilder/cod.gif'" onmouseout="this.src='Bilder/codcover.jpg'"><br></div>
 
           <div id="Action"><h2>Action</h2>
@@ -113,8 +124,10 @@
             <img src="Bilder/tw.jpg" onmouseover="this.src='Bilder/tw.gif'" onmouseout="this.src='Bilder/tw.jpg'">
           </div>
         </div>
+        <!--link zur zweiten Seite-->
        <div id="link"><a href="seite2.html">Seite 2</a></div>
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+      <br><br><br><br><br>
   </body>
 </html>
